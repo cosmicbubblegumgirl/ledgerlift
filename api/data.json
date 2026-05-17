@@ -11,8 +11,8 @@
     },
     {
       "label": "Active records",
-      "value": "7",
-      "delta": "+3"
+      "value": "100",
+      "delta": "100 seeded"
     },
     {
       "label": "Workflow steps",
@@ -28,30 +28,1003 @@
   "records": [
     {
       "id": "ledgerlift-1",
-      "title": "May payroll runway",
+      "title": "May payroll runway #001",
       "status": "Runway forecast",
       "owner": "Forecast",
-      "score": 92,
+      "score": 42,
       "trend": "High attention",
-      "updated": "8 min ago"
+      "updated": "8 min ago",
+      "demoSeed": true
     },
     {
       "id": "ledgerlift-2",
-      "title": "Late invoice risk",
+      "title": "Late invoice risk #002",
       "status": "Invoice confidence",
       "owner": "Scenario lab",
-      "score": 80,
+      "score": 49,
       "trend": "In progress",
-      "updated": "19 min ago"
+      "updated": "13 min ago",
+      "demoSeed": true
     },
     {
       "id": "ledgerlift-3",
-      "title": "Tax reserve adjustment",
+      "title": "Tax reserve adjustment #003",
       "status": "Scenario toggles",
       "owner": "Cash timeline",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "18 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-4",
+      "title": "May payroll runway #004",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "23 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-5",
+      "title": "Late invoice risk #005",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "28 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-6",
+      "title": "Tax reserve adjustment #006",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "33 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-7",
+      "title": "May payroll runway #007",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "38 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-8",
+      "title": "Late invoice risk #008",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "43 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-9",
+      "title": "Tax reserve adjustment #009",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "48 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-10",
+      "title": "May payroll runway #010",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "53 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-11",
+      "title": "Late invoice risk #011",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "58 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-12",
+      "title": "Tax reserve adjustment #012",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "63 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-13",
+      "title": "May payroll runway #013",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "68 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-14",
+      "title": "Late invoice risk #014",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "73 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-15",
+      "title": "Tax reserve adjustment #015",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "78 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-16",
+      "title": "May payroll runway #016",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "83 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-17",
+      "title": "Late invoice risk #017",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "88 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-18",
+      "title": "Tax reserve adjustment #018",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "93 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-19",
+      "title": "May payroll runway #019",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "98 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-20",
+      "title": "Late invoice risk #020",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "103 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-21",
+      "title": "Tax reserve adjustment #021",
+      "status": "Runway forecast",
+      "owner": "Forecast",
       "score": 68,
       "trend": "Ready",
-      "updated": "30 min ago"
+      "updated": "108 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-22",
+      "title": "May payroll runway #022",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "113 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-23",
+      "title": "Late invoice risk #023",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "118 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-24",
+      "title": "Tax reserve adjustment #024",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "123 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-25",
+      "title": "May payroll runway #025",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "128 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-26",
+      "title": "Late invoice risk #026",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "133 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-27",
+      "title": "Tax reserve adjustment #027",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "138 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-28",
+      "title": "May payroll runway #028",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "143 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-29",
+      "title": "Late invoice risk #029",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "148 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-30",
+      "title": "Tax reserve adjustment #030",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "153 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-31",
+      "title": "May payroll runway #031",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "158 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-32",
+      "title": "Late invoice risk #032",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "163 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-33",
+      "title": "Tax reserve adjustment #033",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "168 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-34",
+      "title": "May payroll runway #034",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "173 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-35",
+      "title": "Late invoice risk #035",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "178 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-36",
+      "title": "Tax reserve adjustment #036",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "183 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-37",
+      "title": "May payroll runway #037",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "188 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-38",
+      "title": "Late invoice risk #038",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "193 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-39",
+      "title": "Tax reserve adjustment #039",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "198 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-40",
+      "title": "May payroll runway #040",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "203 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-41",
+      "title": "Late invoice risk #041",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "208 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-42",
+      "title": "Tax reserve adjustment #042",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "213 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-43",
+      "title": "May payroll runway #043",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "218 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-44",
+      "title": "Late invoice risk #044",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 58,
+      "trend": "In progress",
+      "updated": "223 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-45",
+      "title": "Tax reserve adjustment #045",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 65,
+      "trend": "Ready",
+      "updated": "228 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-46",
+      "title": "May payroll runway #046",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 72,
+      "trend": "High attention",
+      "updated": "233 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-47",
+      "title": "Late invoice risk #047",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 79,
+      "trend": "In progress",
+      "updated": "238 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-48",
+      "title": "Tax reserve adjustment #048",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 86,
+      "trend": "Ready",
+      "updated": "243 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-49",
+      "title": "May payroll runway #049",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 93,
+      "trend": "High attention",
+      "updated": "248 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-50",
+      "title": "Late invoice risk #050",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 43,
+      "trend": "In progress",
+      "updated": "253 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-51",
+      "title": "Tax reserve adjustment #051",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 50,
+      "trend": "Ready",
+      "updated": "258 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-52",
+      "title": "May payroll runway #052",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 57,
+      "trend": "High attention",
+      "updated": "263 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-53",
+      "title": "Late invoice risk #053",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 64,
+      "trend": "In progress",
+      "updated": "268 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-54",
+      "title": "Tax reserve adjustment #054",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 71,
+      "trend": "Ready",
+      "updated": "273 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-55",
+      "title": "May payroll runway #055",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 78,
+      "trend": "High attention",
+      "updated": "278 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-56",
+      "title": "Late invoice risk #056",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 85,
+      "trend": "In progress",
+      "updated": "283 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-57",
+      "title": "Tax reserve adjustment #057",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 92,
+      "trend": "Ready",
+      "updated": "288 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-58",
+      "title": "May payroll runway #058",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 42,
+      "trend": "High attention",
+      "updated": "293 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-59",
+      "title": "Late invoice risk #059",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 49,
+      "trend": "In progress",
+      "updated": "298 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-60",
+      "title": "Tax reserve adjustment #060",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "303 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-61",
+      "title": "May payroll runway #061",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "308 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-62",
+      "title": "Late invoice risk #062",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "313 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-63",
+      "title": "Tax reserve adjustment #063",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "318 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-64",
+      "title": "May payroll runway #064",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "323 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-65",
+      "title": "Late invoice risk #065",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "328 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-66",
+      "title": "Tax reserve adjustment #066",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "333 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-67",
+      "title": "May payroll runway #067",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "338 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-68",
+      "title": "Late invoice risk #068",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "343 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-69",
+      "title": "Tax reserve adjustment #069",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "348 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-70",
+      "title": "May payroll runway #070",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "353 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-71",
+      "title": "Late invoice risk #071",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "358 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-72",
+      "title": "Tax reserve adjustment #072",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "363 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-73",
+      "title": "May payroll runway #073",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "368 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-74",
+      "title": "Late invoice risk #074",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "373 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-75",
+      "title": "Tax reserve adjustment #075",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "378 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-76",
+      "title": "May payroll runway #076",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "383 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-77",
+      "title": "Late invoice risk #077",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "388 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-78",
+      "title": "Tax reserve adjustment #078",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "393 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-79",
+      "title": "May payroll runway #079",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "398 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-80",
+      "title": "Late invoice risk #080",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "403 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-81",
+      "title": "Tax reserve adjustment #081",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "408 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-82",
+      "title": "May payroll runway #082",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "413 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-83",
+      "title": "Late invoice risk #083",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "418 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-84",
+      "title": "Tax reserve adjustment #084",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "423 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-85",
+      "title": "May payroll runway #085",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "428 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-86",
+      "title": "Late invoice risk #086",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "433 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-87",
+      "title": "Tax reserve adjustment #087",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "438 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-88",
+      "title": "May payroll runway #088",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "443 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-89",
+      "title": "Late invoice risk #089",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "448 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-90",
+      "title": "Tax reserve adjustment #090",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "453 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-91",
+      "title": "May payroll runway #091",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "458 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-92",
+      "title": "Late invoice risk #092",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "463 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-93",
+      "title": "Tax reserve adjustment #093",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "468 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-94",
+      "title": "May payroll runway #094",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "473 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-95",
+      "title": "Late invoice risk #095",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "478 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-96",
+      "title": "Tax reserve adjustment #096",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "483 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-97",
+      "title": "May payroll runway #097",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "488 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-98",
+      "title": "Late invoice risk #098",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "493 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-99",
+      "title": "Tax reserve adjustment #099",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "498 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "ledgerlift-100",
+      "title": "May payroll runway #100",
+      "status": "Accountant notes",
+      "owner": "Advisor notes",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "503 min ago",
+      "demoSeed": true
     }
   ],
   "workflow": [
