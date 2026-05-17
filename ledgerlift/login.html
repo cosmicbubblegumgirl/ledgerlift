@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login | LedgerLift</title>
+  <meta name="description" content="LedgerLift demo login for database edits and document snapshots." />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="login">
+  <header class="app-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="LedgerLift logo" /><span><strong>LedgerLift</strong><small>Cash-flow foresight</small></span></a>
+    <nav class="nav-links" aria-label="LedgerLift navigation">
+      <a href="index.html">Dashboard</a>
+      <a href="workspace.html">Workspace</a>
+      <a href="demo.html">Documents</a>
+      <a href="database.html">Database</a>
+      <a href="product.html">Product</a>
+      <a href="case-study.html">Case Study</a>
+    </nav>
+    <div class="header-actions"><span class="session-pill" data-session-pill>Guest mode</span><button class="tool-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main class="page-shell">
+    <section class="login-shell">
+      <article class="login-panel">
+        <img class="login-mark" src="assets/logo.svg" alt="" />
+        <p class="kicker">Secure demo access</p>
+        <h1>Sign in to LedgerLift.</h1>
+        <p>Demo sessions unlock record writes, deletes, database reset, and document snapshot ownership.</p>
+        <form data-login-form>
+          <label>Email<input name="email" type="email" value="simone@ledgerlift.demo" required /></label>
+          <label>Password<input name="password" type="password" value="demo123" required /></label>
+          <button class="button primary" type="submit">Sign in</button>
+          <p data-login-status></p>
+        </form>
+        <div class="credential-grid">
+          <button type="button" data-demo-user="simone@ledgerlift.demo" data-demo-password="demo123"><strong>Simoné</strong><span>Founder demo</span></button>
+          <button type="button" data-demo-user="owner@ledgerlift.demo" data-demo-password="cashflow"><strong>Owner</strong><span>Business owner</span></button>
+          <button type="button" data-demo-user="advisor@ledgerlift.demo" data-demo-password="advisor123"><strong>Advisor</strong><span>Accountant view</span></button>
+        </div>
+        <button class="button" type="button" data-logout>Clear session</button>
+      </article>
+
+      <aside class="preview-panel">
+        <img src="assets/preview.svg" alt="LedgerLift product preview" />
+        <p class="kicker">Current session</p>
+        <div data-session-detail>No active session.</div>
+      </aside>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>LedgerLift</strong><br />Role-aware demo login backed by the local Node API and static fallback users.<br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

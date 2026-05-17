@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Database | LedgerLift</title>
+  <meta name="description" content="LedgerLift database console with 200 preloaded cash-flow records." />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="database">
+  <header class="app-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="LedgerLift logo" /><span><strong>LedgerLift</strong><small>Cash-flow foresight</small></span></a>
+    <nav class="nav-links" aria-label="LedgerLift navigation">
+      <a href="index.html">Dashboard</a>
+      <a href="workspace.html">Workspace</a>
+      <a href="demo.html">Documents</a>
+      <a href="database.html">Database</a>
+      <a href="product.html">Product</a>
+      <a href="case-study.html">Case Study</a>
+    </nav>
+    <div class="header-actions"><span class="session-pill" data-session-pill>Guest mode</span><a class="button" href="login.html">Login</a><button class="tool-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-hero">
+      <p class="kicker">ledgerlift_cashflow_records</p>
+      <h1>200 preloaded records with login-gated writes.</h1>
+      <p>Search the cash-flow database, sort by timing or risk, add new forecast rows, delete rows after sign-in, export JSON, and reset the seed data.</p>
+    </section>
+
+    <section class="section database-shell">
+      <div class="auth-warning" data-auth-required>
+        <strong>Demo login required for edits.</strong>
+        <span>Viewing and export are open. Create, delete, and reset are protected by the demo session.</span>
+        <a class="button" href="login.html">Login</a>
+      </div>
+
+      <div class="triage-grid" data-triage-board></div>
+
+      <div class="db-toolbar">
+        <input data-db-search placeholder="Search cash-flow records" />
+        <select data-db-sort><option value="date">Sort by date</option><option value="amount">Sort by amount</option><option value="risk">Sort by risk</option><option value="company">Sort by company</option></select>
+        <button class="button" type="button" data-db-export>Export JSON</button>
+        <button class="button danger" type="button" data-db-reset data-auth-only>Reset seed</button>
+      </div>
+
+      <div class="database-grid">
+        <form class="db-form" data-db-form>
+          <p class="kicker">Add record</p>
+          <h2>New cash event</h2>
+          <label>Title<input name="title" required value="Retainer invoice decision" /></label>
+          <label>Company<input name="company" required value="Demo business" /></label>
+          <label>Date<input name="date" type="date" value="2026-06-15" /></label>
+          <label>Amount<input name="amount" type="number" value="7800" /></label>
+          <label>Category<input name="category" value="manual entry" /></label>
+          <label>Account<select name="account"><option>Operating</option><option>Payroll</option><option>Tax Reserve</option><option>Inventory</option><option>Growth Fund</option></select></label>
+          <label>Status<select name="status"><option>Needs decision</option><option>Forecasted</option><option>Due soon</option><option>Cleared</option><option>Delayed</option></select></label>
+          <label>Confidence<input name="confidence" type="number" min="1" max="100" value="78" /></label>
+          <label>Risk score<input name="score" type="number" min="1" max="100" value="74" /></label>
+          <label>Note<textarea name="note">Owner wants to test this before committing the payment timing.</textarea></label>
+          <button class="button primary" type="submit" data-auth-only>Save record</button>
+          <p data-db-form-status></p>
+        </form>
+
+        <article class="table-panel">
+          <div class="document-head"><div><p class="kicker">Database rows</p><h3 data-db-count>200 records</h3></div><span class="badge">Live</span></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ID</th><th>Record</th><th>Date</th><th>Type</th><th>Amount</th><th>Risk</th><th></th></tr></thead>
+              <tbody data-db-rows></tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>LedgerLift</strong><br />Local Node API plus static JSON fallback, seeded with 200 records.<br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

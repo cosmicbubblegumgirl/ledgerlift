@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" role="img" aria-label="LedgerLift dashboard preview">
+  <rect width="1280" height="820" fill="#fbfcf9"/>
+  <path d="M0 0h1280v820H0z" fill="#101915"/>
+  <rect x="46" y="42" width="1188" height="736" rx="18" fill="#f7f9f2"/>
+  <rect x="46" y="42" width="230" height="736" rx="18" fill="#101915"/>
+  <rect x="82" y="86" width="72" height="72" rx="18" fill="#00a676"/>
+  <path d="M104 137l16-16 12 8 20-25" fill="none" stroke="#ffbf69" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="82" y="205" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#fbfcf9">LedgerLift</text>
+  <rect x="82" y="262" width="146" height="38" rx="7" fill="#24322d"/>
+  <rect x="82" y="318" width="116" height="38" rx="7" fill="#24322d"/>
+  <rect x="82" y="374" width="132" height="38" rx="7" fill="#24322d"/>
+  <rect x="82" y="430" width="102" height="38" rx="7" fill="#24322d"/>
+  <text x="326" y="112" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#101915">Cash decisions this month</text>
+  <text x="326" y="152" font-family="Inter, Arial, sans-serif" font-size="20" fill="#58635e">Forecast, documents, and cash-flow database in one command view.</text>
+  <rect x="326" y="196" width="196" height="128" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <rect x="548" y="196" width="196" height="128" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <rect x="770" y="196" width="196" height="128" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <rect x="992" y="196" width="196" height="128" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <text x="350" y="248" font-family="Inter, Arial, sans-serif" font-size="22" fill="#58635e">Current cash</text>
+  <text x="350" y="292" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900" fill="#101915">$84.6k</text>
+  <text x="572" y="248" font-family="Inter, Arial, sans-serif" font-size="22" fill="#58635e">Runway</text>
+  <text x="572" y="292" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900" fill="#101915">47 days</text>
+  <text x="794" y="248" font-family="Inter, Arial, sans-serif" font-size="22" fill="#58635e">Invoices</text>
+  <text x="794" y="292" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900" fill="#101915">$72.8k</text>
+  <text x="1016" y="248" font-family="Inter, Arial, sans-serif" font-size="22" fill="#58635e">Rows</text>
+  <text x="1016" y="292" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900" fill="#101915">200</text>
+  <rect x="326" y="360" width="528" height="332" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <rect x="890" y="360" width="298" height="332" rx="10" fill="#ffffff" stroke="#dfe7dd"/>
+  <text x="354" y="412" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#101915">45-day cash line</text>
+  <path d="M360 612c70-92 112-42 162-108 58-76 104 54 164-4 62-60 82-30 132-92" fill="none" stroke="#00a676" stroke-width="10" stroke-linecap="round"/>
+  <rect x="360" y="632" width="432" height="22" rx="7" fill="#dfe7dd"/>
+  <rect x="360" y="632" width="292" height="22" rx="7" fill="#26547c"/>
+  <text x="918" y="412" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#101915">Decision lab</text>
+  <rect x="918" y="460" width="220" height="16" rx="8" fill="#dfe7dd"/>
+  <rect x="918" y="460" width="164" height="16" rx="8" fill="#f25f5c"/>
+  <rect x="918" y="516" width="220" height="16" rx="8" fill="#dfe7dd"/>
+  <rect x="918" y="516" width="120" height="16" rx="8" fill="#ffbf69"/>
+  <rect x="918" y="572" width="220" height="16" rx="8" fill="#dfe7dd"/>
+  <rect x="918" y="572" width="184" height="16" rx="8" fill="#00a676"/>
+  <rect x="918" y="630" width="176" height="38" rx="8" fill="#101915"/>
+</svg>

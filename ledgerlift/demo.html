@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Documents | LedgerLift</title>
+  <meta name="description" content="LedgerLift interactive document studio and cash-flow scenario lab." />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="documents">
+  <header class="app-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="LedgerLift logo" /><span><strong>LedgerLift</strong><small>Cash-flow foresight</small></span></a>
+    <nav class="nav-links" aria-label="LedgerLift navigation">
+      <a href="index.html">Dashboard</a>
+      <a href="workspace.html">Workspace</a>
+      <a href="demo.html">Documents</a>
+      <a href="database.html">Database</a>
+      <a href="product.html">Product</a>
+      <a href="case-study.html">Case Study</a>
+    </nav>
+    <div class="header-actions"><span class="session-pill" data-session-pill>Guest mode</span><a class="button" href="login.html">Login</a><button class="tool-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-hero">
+      <p class="kicker">Document studio</p>
+      <h1>Editable financial documents inside the forecast workflow.</h1>
+      <p>Switch between core small-business finance documents, edit the cells directly, see totals update, and save snapshots to the browser and local API.</p>
+    </section>
+
+    <section class="section compact-section">
+      <div class="experience-bar">
+        <div><p class="kicker">Document cockpit</p><strong data-playbook-title>Protect payroll</strong><p data-playbook-copy>Choose a cash strategy, then edit documents against that decision context.</p></div>
+        <div class="playbook-grid" data-playbook-grid></div>
+      </div>
+    </section>
+
+    <section class="section document-layout">
+      <div>
+        <div class="tabs" data-document-tabs></div>
+        <div data-document-panel></div>
+      </div>
+      <aside class="insight-card">
+        <p class="kicker">Saved snapshots</p>
+        <h3>Document memory</h3>
+        <p>Snapshots attach editable documents to the cash-flow story for handoff, audits, and next-step planning.</p>
+        <div class="snapshot-list" data-snapshot-list></div>
+      </aside>
+    </section>
+
+    <section class="section two-col">
+      <article class="scenario-panel">
+        <div class="scenario-result" data-scenario-result><span>Projected closing cash</span><strong>$0</strong><p>Loading</p></div>
+        <div class="app-panel">
+          <p class="kicker">What-if lab</p>
+          <h2>Test a decision</h2>
+          <div class="scenario-controls">
+            <label>Late invoice exposure <output data-scenario-output="lateInvoice">$0</output><input data-scenario="lateInvoice" type="range" min="0" max="42000" step="500" value="9500" /></label>
+            <label>Inventory order <output data-scenario-output="inventory">$0</output><input data-scenario="inventory" type="range" min="0" max="32000" step="500" value="6500" /></label>
+            <label>New contract upside <output data-scenario-output="newContract">$0</output><input data-scenario="newContract" type="range" min="0" max="52000" step="500" value="22000" /></label>
+            <label>Hiring plan <output data-scenario-output="hiring">$0</output><input data-scenario="hiring" type="range" min="0" max="18000" step="250" value="2500" /></label>
+          </div>
+        </div>
+      </article>
+      <article class="app-panel">
+        <p class="kicker">Forecast response</p>
+        <h2>Recommendation</h2>
+        <p data-decision-summary></p>
+        <div class="cash-timeline" data-cash-timeline></div>
+      </article>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>LedgerLift</strong><br />Interactive documents and scenario planning for small business cash decisions.<br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

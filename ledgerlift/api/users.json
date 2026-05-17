@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "user-simone",
+      "name": "Simoné Govender",
+      "role": "Founder",
+      "email": "simone@ledgerlift.demo",
+      "password": "demo123"
+    },
+    {
+      "id": "user-owner",
+      "name": "Small Business Owner",
+      "role": "Owner",
+      "email": "owner@ledgerlift.demo",
+      "password": "cashflow"
+    },
+    {
+      "id": "user-advisor",
+      "name": "Advisor",
+      "role": "Accountant",
+      "email": "advisor@ledgerlift.demo",
+      "password": "advisor123"
+    }
+  ]
+}
