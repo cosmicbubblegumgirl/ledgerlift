@@ -1,34 +1,112 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home | LedgerLift</title>
-  <meta name="description" content="LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets." />
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <title>LedgerLift | Cash-flow foresight for small business decisions</title>
+  <meta name="description" content="LedgerLift gives small businesses cash-flow forecasting, scenario planning, editable finance documents, login, and a 200-record database." />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <style>:root{--brand:#2563eb;--accent:#10b981;--second:#7c3aed;--soft:#eef4ff;--dark:#111827}</style>
-</head><body><header class="topbar">
-  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="LedgerLift logo" /><span><strong>LedgerLift</strong><small>Cash Flow Forecasting</small></span></a>
-  <nav aria-label="LedgerLift navigation">
-    <a href="index.html">Home</a>
-    <a href="product.html">Product</a>
-    <a href="workspace.html">Workspace</a>
-    <a href="case-study.html">Case Study</a>
-    <a href="demo.html">Demo</a>
-  </nav>
-  <button class="theme-toggle" type="button" data-theme-toggle>Dark</button>
-</header><main><section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">precise financial clarity</p>
-    <h1>Cash-flow foresight for small business decisions.</h1>
-    <p class="lead">LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.</p>
-    <div class="hero-actions"><a class="button primary" href="workspace.html">Open workspace</a><a class="button secondary" href="demo.html">Try demo</a></div>
-    <p class="notice">A Quantum Cupcake Creation (Simoné Govender) Front end, JSON data layer, and local browser persistence.</p>
-  </div>
-  <aside class="product-stage" aria-label="LedgerLift live preview">
-    <div class="stage-top"><span></span><span></span><span></span><strong data-live-status>Loading data</strong></div>
-    <div class="stage-body"><img src="assets/preview.svg" alt="LedgerLift interface preview" /><div class="live-panel" data-live-panel></div></div>
-  </aside>
-</section><section class="section"><div class="section-heading"><p class="eyebrow">Product system</p><h2>Built as a complete standalone web experience.</h2><p>Each page reads from the same product data model and adds front-end behavior that fits the precise financial clarity vibe.</p></div><div class="grid"><article class="panel"><span>01</span><h3>Runway forecast</h3><p>LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.</p></article><article class="panel"><span>02</span><h3>Invoice confidence</h3><p>LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.</p></article><article class="panel"><span>03</span><h3>Scenario toggles</h3><p>LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.</p></article><article class="panel"><span>04</span><h3>Accountant notes</h3><p>LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.</p></article></div></section><section class="section"><div class="section-heading"><p class="eyebrow">Live workspace</p><h2>LedgerLift dashboard.</h2><p>Fetched KPI cards, filterable records, workflow rules, and a visual score chart render from the JSON endpoint.</p></div><div class="kpi-grid" data-kpis></div><div class="workspace-grid"><article class="panel"><div class="panel-head"><div><p class="eyebrow">Records</p><h3>Operational queue</h3></div><input class="inline-search" data-record-search placeholder="Filter records" /></div><div class="record-list" data-records></div></article><article class="panel"><p class="eyebrow">Score shape</p><h3>Priority chart</h3><div class="chart" data-chart></div></article><article class="panel wide"><p class="eyebrow">Workflow</p><h3>Product rules</h3><div class="workflow-list" data-workflow></div></article></div></section><section class="section split">
-  <div class="section-heading"><p class="eyebrow">Back end layer</p><h2>Static API, dynamic rendering, saved interactions.</h2><p>GitHub Pages cannot run a server process, so this standalone site uses <code>api/data.json</code> as a backend data contract and localStorage for write-like saved state.</p></div>
-  <div class="api-card panel"><p class="eyebrow">API preview</p><pre data-api-preview>{}</pre></div>
-</section></main><footer><img src="assets/logo.svg" alt="" aria-hidden="true" /><p><strong>LedgerLift</strong><br/>A Quantum Cupcake Creation (Simoné Govender) Standalone GitHub Pages product site with front-end UI, JSON data layer, and local persistence.</p></footer><script>window.SITE_CONFIG={"slug":"ledgerlift","name":"LedgerLift","category":"Cash Flow Forecasting","audience":"small businesses and accountants","tone":"precise financial clarity","brand":"#2563eb","accent":"#10b981","second":"#7c3aed","soft":"#eef4ff","dark":"#111827","symbol":"bars","tagline":"Cash-flow foresight for small business decisions.","summary":"LedgerLift models runway, invoice confidence, tax reserves, and what-if scenarios without burying owners in spreadsheets.","features":["Runway forecast","Invoice confidence","Scenario toggles","Accountant notes"],"pages":["Forecast","Scenario lab","Cash timeline","Advisor notes"],"demo":{"label":"Runway Calculator","fields":["Starting cash","Expected invoices","Expenses"],"result":"Runway health","outcomes":["Tight","Stable","Strong"]},"records":["May payroll runway","Late invoice risk","Tax reserve adjustment"],"caseStudy":["Make cash flow less abstract","Show risk before the bank balance drops","Create a clean advisor handoff"]};</script><script src="assets/app.js"></script></body></html>
+</head>
+<body data-page="dashboard">
+  <header class="app-header">
+    <a class="brand-lockup" href="index.html"><img src="assets/logo.svg" alt="LedgerLift logo" /><span><strong>LedgerLift</strong><small>Cash-flow foresight</small></span></a>
+    <nav class="nav-links" aria-label="LedgerLift navigation">
+      <a href="index.html">Dashboard</a>
+      <a href="workspace.html">Workspace</a>
+      <a href="demo.html">Documents</a>
+      <a href="database.html">Database</a>
+      <a href="product.html">Product</a>
+      <a href="case-study.html">Case Study</a>
+    </nav>
+    <div class="header-actions"><span class="session-pill" data-session-pill>Guest mode</span><a class="button" href="login.html">Login</a><button class="tool-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main class="page-shell">
+    <section class="dashboard-hero">
+      <div class="command-panel">
+        <div class="hero-title">
+          <div>
+            <p class="kicker">Cash-flow command center</p>
+            <h1>Cash-flow foresight for small business decisions.</h1>
+            <p>LedgerLift turns invoices, bills, payroll, taxes, and owner decisions into a clear cash runway with editable financial documents and a live database layer.</p>
+          </div>
+          <div class="hero-actions"><a class="button primary" href="workspace.html">Open workspace</a><button class="button ghost" type="button" data-command-launch>Ask LedgerLift</button></div>
+        </div>
+
+        <div class="experience-bar">
+          <div><p class="kicker">Interactive pilot mode</p><strong data-playbook-title>Protect payroll</strong><p data-playbook-copy>Use strategy presets to reshape the forecast instantly.</p></div>
+          <div class="playbook-grid" data-playbook-grid></div>
+        </div>
+
+        <div class="decision-strip" data-decision-strip></div>
+        <div class="metric-grid" data-kpi-grid></div>
+
+        <div class="two-col">
+          <article class="app-panel forecast-layout">
+            <div class="forecast-top">
+              <div><p class="kicker">45-day forecast</p><h2>Cash line</h2></div>
+              <span class="risk-watch" data-risk-level>Watch</span>
+            </div>
+            <div class="forecast-chart" data-forecast-chart aria-label="45-day cash forecast chart"></div>
+            <p data-decision-summary>Scenario recommendation loading.</p>
+          </article>
+
+          <article class="app-panel">
+            <div class="forecast-top">
+              <div><p class="kicker">Accounts</p><h2>Balances</h2></div>
+              <span class="badge">Synced</span>
+            </div>
+            <div class="account-list" data-account-list></div>
+          </article>
+        </div>
+      </div>
+
+      <aside class="scenario-panel">
+        <article class="scenario-result" data-scenario-result><span>Projected closing cash</span><strong>$0</strong><p>Loading</p></article>
+        <article class="app-panel">
+          <p class="kicker">What-if lab</p>
+          <h2>Decision levers</h2>
+          <div class="scenario-controls">
+            <label>Late invoice exposure <output data-scenario-output="lateInvoice">$0</output><input data-scenario="lateInvoice" type="range" min="0" max="42000" step="500" value="10500" /></label>
+            <label>Inventory order <output data-scenario-output="inventory">$0</output><input data-scenario="inventory" type="range" min="0" max="32000" step="500" value="8500" /></label>
+            <label>New contract upside <output data-scenario-output="newContract">$0</output><input data-scenario="newContract" type="range" min="0" max="52000" step="500" value="18000" /></label>
+            <label>Hiring plan <output data-scenario-output="hiring">$0</output><input data-scenario="hiring" type="range" min="0" max="18000" step="250" value="3750" /></label>
+          </div>
+        </article>
+        <article class="app-panel constellation-card">
+          <div class="forecast-top"><div><p class="kicker">Cash constellation</p><h2>Signal map</h2></div><span class="badge">Live</span></div>
+          <div data-signal-board></div>
+        </article>
+        <article class="app-panel">
+          <p class="kicker">Live activity</p>
+          <div class="activity-list" data-activity-list></div>
+        </article>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="kicker">Embedded financial documents</p>
+        <h2>Editable statements, trackers, reserves, payroll, and supplier calendars.</h2>
+        <p>Every document is rendered from the data layer, editable in place, recalculated live, and saved as a snapshot for the active user session.</p>
+      </div>
+      <div class="document-layout">
+        <div>
+          <div class="tabs" data-document-tabs></div>
+          <div data-document-panel></div>
+        </div>
+        <aside class="insight-card">
+          <p class="kicker">Advisor packet</p>
+          <h3>Decision-ready handoff</h3>
+          <p>Saved document snapshots keep the story behind the numbers attached to the forecast, so owners and accountants can act from the same page.</p>
+          <div class="snapshot-list" data-snapshot-list></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>LedgerLift</strong><br />Cash-flow forecasting, scenario planning, document editing, login, and a local JSON database for small businesses.<br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
