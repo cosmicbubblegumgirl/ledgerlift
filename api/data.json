@@ -1,0 +1,96 @@
+{
+  "product": "LedgerLift",
+  "category": "Cash Flow Forecasting",
+  "backend": "GitHub Pages static JSON endpoint plus localStorage write simulation.",
+  "generatedBy": "Simone Govender",
+  "metrics": [
+    {
+      "label": "Runway health",
+      "value": "86%",
+      "delta": "+12%"
+    },
+    {
+      "label": "Active records",
+      "value": "7",
+      "delta": "+3"
+    },
+    {
+      "label": "Workflow steps",
+      "value": "4",
+      "delta": "mapped"
+    },
+    {
+      "label": "Local saves",
+      "value": "on",
+      "delta": "browser"
+    }
+  ],
+  "records": [
+    {
+      "id": "ledgerlift-1",
+      "title": "May payroll runway",
+      "status": "Runway forecast",
+      "owner": "Forecast",
+      "score": 92,
+      "trend": "High attention",
+      "updated": "8 min ago"
+    },
+    {
+      "id": "ledgerlift-2",
+      "title": "Late invoice risk",
+      "status": "Invoice confidence",
+      "owner": "Scenario lab",
+      "score": 80,
+      "trend": "In progress",
+      "updated": "19 min ago"
+    },
+    {
+      "id": "ledgerlift-3",
+      "title": "Tax reserve adjustment",
+      "status": "Scenario toggles",
+      "owner": "Cash timeline",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "30 min ago"
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "title": "Runway forecast",
+      "detail": "LedgerLift uses runway forecast to support forecast decisions for small businesses and accountants."
+    },
+    {
+      "step": 2,
+      "title": "Invoice confidence",
+      "detail": "LedgerLift uses invoice confidence to support scenario lab decisions for small businesses and accountants."
+    },
+    {
+      "step": 3,
+      "title": "Scenario toggles",
+      "detail": "LedgerLift uses scenario toggles to support cash timeline decisions for small businesses and accountants."
+    },
+    {
+      "step": 4,
+      "title": "Accountant notes",
+      "detail": "LedgerLift uses accountant notes to support advisor notes decisions for small businesses and accountants."
+    }
+  ],
+  "activity": [
+    {
+      "title": "Make cash flow less abstract",
+      "time": "1h",
+      "kind": "Runway forecast"
+    },
+    {
+      "title": "Show risk before the bank balance drops",
+      "time": "2h",
+      "kind": "Invoice confidence"
+    },
+    {
+      "title": "Create a clean advisor handoff",
+      "time": "3h",
+      "kind": "Scenario toggles"
+    }
+  ]
+}
